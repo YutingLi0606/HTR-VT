@@ -1,4 +1,4 @@
-# (Pattern Recognition)HTR-VT
+# HTR-VT (Pattern Recognition)
 Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Vision Tranformer"
 
 [[Project Page]](https://yutingli0606.github.io/HTR-VT/)
@@ -33,7 +33,7 @@ author = {Yuting Li and Dexiong Chen and Tinglong Tang and Xi Shen},
 
 ## 2. Visual Results
 <p align="center">
-<img src="img/visual.png" width="1000px" alt="method">
+<img src="img/visual.png" width="900px" alt="method">
 </p>
 
 ## 3. Installation
@@ -52,23 +52,50 @@ The code was tested on Python 3.9 and PyTorch 1.13.0.
 ### 3.2. Datasets
 
 * Using **IAM, READ2016 and LAM** for handwritten text recognition.
-* Download datasets to ./data/ and split into train/val/test.
-Take IAM for an example:
 
+</summary>
+  <details>
+   <summary>
+   IAM
+   </summary>
+    
+    Register at the FKI's webpage :https://fki.tic.heia-fr.ch/databases/iam-handwriting-database)
+    Download the dataset from here :https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database
+  </details>
+  <details>
+   <summary>
+   READ2016
+   </summary>
+    
+    wget https://zenodo.org/record/1164045/files/{Test-ICFHR-2016.tgz,Train-And-Val-ICFHR-2016.tgz}
+  </details>
+  <details>
+   <summary>
+   LAM
+   </summary>
+    
+    Download the dataset from here: https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=46
+  </details>
+  
+* Download datasets to ./data/.
+Take IAM for an example:
 The structure of the file should be:
+
 ```
 ./data/iam/
 ├── train.ln
 ├── val.ln
 ├── test.ln
 └── lines
+      ├──a01-000u-00.png
+      ├──a01-000u-00.txt
+      ├──a01-000u-01.png
+      ├──a01-000u-01.txt
+      ...
 ```
-* We have already split Tiny-imagenet, you can download it from [here.](https://drive.google.com/drive/folders/1xT-cX22_I8h5yAYT1WNJmhSLrQFZZ5t1?usp=sharing)
 
 
 ## 4. Quick Start
-* Our model checkpoints are saved [here.](https://drive.google.com/drive/folders/1xT-cX22_I8h5yAYT1WNJmhSLrQFZZ5t1?usp=sharing)
-* 
 * We provide convenient and comprehensive commands in ./run/ to train and test on different datasets to help researchers reproducing the results of the paper.
 
 
