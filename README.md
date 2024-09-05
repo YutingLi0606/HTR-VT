@@ -97,6 +97,6 @@ The structure of the file should be:
 * We provide convenient and comprehensive commands in ./run/ to train and test on different datasets to help researchers reproducing the results of the paper.
 
 
-## 6. Acknowledgement
+## 5. Acknowledgement
 
 We appreciate helps from public code like [VAN](https://github.com/FactoDeepLearning/VerticalAttentionOCR) and [OrigamiNet](https://github.com/IntuitionMachines/OrigamiNet).  
