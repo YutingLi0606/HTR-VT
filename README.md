@@ -7,15 +7,13 @@ Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Visio
 
 If our project is helpful for your research, please consider citing :
 ```
-@article{LI2025110967,
-title = {HTR-VT: Handwritten text recognition with vision transformer},
-journal = {Pattern Recognition},
-volume = {158},
-pages = {110967},
-year = {2025},
-issn = {0031-3203},
-doi = {https://doi.org/10.1016/j.patcog.2024.110967},
-author = {Yuting Li and Dexiong Chen and Tinglong Tang and Xi Shen},
+@article{li2024htr,
+  title={HTR-VT: Handwritten text recognition with vision transformer},
+  author={Li, Yuting and Chen, Dexiong and Tang, Tinglong and Shen, Xi},
+  journal={Pattern Recognition},
+  pages={110967},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
