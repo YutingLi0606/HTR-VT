@@ -2,8 +2,8 @@
 Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Vision Tranformer"
 
 [[Project Page]](https://yutingli0606.github.io/HTR-VT/)
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
 [[ArXiv]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180) 
-[[Google Drive]]()
 
 If our project is helpful for your research, please consider citing :
 ```
