@@ -3,7 +3,7 @@ Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Visio
 
 [[Project Page]](https://yutingli0606.github.io/HTR-VT/)
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
-[[ArXiv]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180) 
+[[arXiv]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180) 
 
 If our project is helpful for your research, please consider citing :
 ```
@@ -22,7 +22,7 @@ If our project is helpful for your research, please consider citing :
 * [2. Visual Results](#2-visual-results)
 * [3. Installation](#3-installation)
 * [4. Quick Start](#4-quick-start)
-* [5. Acknowledgement](#6-acknowledgement)
+* [5. Acknowledgement](#5-acknowledgement)
 
 ## 1. Overview
 <p align="center">
@@ -95,7 +95,6 @@ The structure of the file should be:
 
 ## 4. Quick Start
 * We provide convenient and comprehensive commands in ./run/ to train and test on different datasets to help researchers reproducing the results of the paper.
-
 
 ## 5. Acknowledgement
 
