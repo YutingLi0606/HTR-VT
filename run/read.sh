@@ -20,7 +20,6 @@ python3 test.py --exp-name read \
 --train-bs 128 \
 --val-bs 8 \
 --weight-decay 0.5 \
---arch tiny \
 --mask-ratio 0.4 \
 --attn-mask-ratio 0.1 \
 --max-span-length 8 \
