@@ -5,6 +5,13 @@ Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Visio
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
 [[arXiv]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180) 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-lam-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-lam-line?p=htr-vt-handwritten-text-recognition-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-read2016-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-read2016-line?p=htr-vt-handwritten-text-recognition-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-iam-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-iam-line?p=htr-vt-handwritten-text-recognition-with)
+
+
 If our project is helpful for your research, please consider citing :
 ```
 @article{li2024htr,
