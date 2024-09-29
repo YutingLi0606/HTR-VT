@@ -1,35 +1,25 @@
-# HTR-VT (Pattern Recognition)
-Pytorch implementation of paper "HTR-VT: Handwritten Text Recognition with Vision Tranformer"
-
-[[Project Page]](https://yutingli0606.github.io/HTR-VT/)
-[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
-[[arXiv]](https://arxiv.org/pdf/2409.08573) 
-
+# 📙 HTR-VT (Pattern Recognition)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-lam-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-lam-line?p=htr-vt-handwritten-text-recognition-with)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-read2016-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-read2016-line?p=htr-vt-handwritten-text-recognition-with)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/htr-vt-handwritten-text-recognition-with/handwritten-text-recognition-on-iam-line)](https://paperswithcode.com/sota/handwritten-text-recognition-on-iam-line?p=htr-vt-handwritten-text-recognition-with)
+### Introduction
+This is the official implementation of our **Pattern Recognition(PR)** 2024 paper *"HTR-VT: Handwritten Text Recognition with Vision Transformer".* It's a new and effective baseline for handwritten text recognition solely using Vision Transformer and CTC Loss. If you find this repo useful, please give it a star ⭐ and consider citing our paper. Thank you.
+
+[[Project Page]](https://yutingli0606.github.io/HTR-VT/)
+[[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
+[[arXiv]](https://arxiv.org/pdf/2409.08573) 
 
 
-If our project is helpful for your research, please consider citing :
-```
-@article{li2024htr,
-  title={HTR-VT: Handwritten text recognition with vision transformer},
-  author={Li, Yuting and Chen, Dexiong and Tang, Tinglong and Shen, Xi},
-  journal={Pattern Recognition},
-  pages={110967},
-  year={2024},
-  publisher={Elsevier}
-}
-```
 
 ## Table of Content
 * [1. Overview](#1-overview)
 * [2. Visual Results](#2-visual-results)
 * [3. Installation](#3-installation)
 * [4. Quick Start](#4-quick-start)
-* [5. Acknowledgement](#5-acknowledgement)
+* [5. Citation](#5-citation)
+* [6. Acknowledgement](#6-acknowledgement)
 
 ## 1. Overview
 <p align="center">
@@ -103,6 +93,19 @@ The structure of the file should be:
 ## 4. Quick Start
 * We provide convenient and comprehensive commands in ./run/ to train and test on different datasets to help researchers reproducing the results of the paper.
 
-## 5. Acknowledgement
+## 5. Citation
+If our project is helpful for your research, please consider citing :
+```
+@article{li2024htr,
+  title={HTR-VT: Handwritten text recognition with vision transformer},
+  author={Li, Yuting and Chen, Dexiong and Tang, Tinglong and Shen, Xi},
+  journal={Pattern Recognition},
+  pages={110967},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 
-We appreciate helps from public code like [VAN](https://github.com/FactoDeepLearning/VerticalAttentionOCR) and [OrigamiNet](https://github.com/IntuitionMachines/OrigamiNet).  
+## 6. Acknowledgement
+
+We appreciate helps from public code: [VAN](https://github.com/FactoDeepLearning/VerticalAttentionOCR) and [OrigamiNet](https://github.com/IntuitionMachines/OrigamiNet).  
