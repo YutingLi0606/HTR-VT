@@ -57,7 +57,8 @@ class CTCLabelConverter(object):
         self.dict = {}
         for i, char in enumerate(dict_character):
             self.dict[char] = i + 1
-
+        if len(self.dict) == 87:     # '[' and ']' are not in the test set but in the training and validation sets.
+            self.dict['['], self.dict[']'] = 88, 89
         self.character = ['[blank]'] + dict_character
 
     def encode(self, text):
