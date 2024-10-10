@@ -10,7 +10,7 @@ This is the official implementation of our **Pattern Recognition(PR)** 2024 pape
 [[Project Page]](https://yutingli0606.github.io/HTR-VT/)
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324007180)
 [[arXiv]](https://arxiv.org/pdf/2409.08573) 
-
+[[Google Drive]](https://drive.google.com/drive/folders/1g8ber-YqOeytDA4SqNah1otTt3AKCYXb?usp=drive_link)
 
 
 ## Table of Content
