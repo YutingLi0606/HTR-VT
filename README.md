@@ -96,12 +96,13 @@ The structure of the file should be:
 ## 5. Citation
 If our project is helpful for your research, please consider citing :
 ```
-@article{li2024htr,
+@article{li2025htr,
   title={HTR-VT: Handwritten text recognition with vision transformer},
   author={Li, Yuting and Chen, Dexiong and Tang, Tinglong and Shen, Xi},
   journal={Pattern Recognition},
+  volume={158},
   pages={110967},
-  year={2024},
+  year={2025},
   publisher={Elsevier}
 }
 ```
